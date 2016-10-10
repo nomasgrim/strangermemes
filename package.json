@@ -23,6 +23,11 @@
   "homepage": "https://github.com/nomasgrim/pug-seed#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-minify": "0.0.14",
+    "gulp-pug": "^3.1.0",
+    "gulp-run-sequence": "^0.3.2",
     "gulp-sass": "^2.3.2"
   }
 }
