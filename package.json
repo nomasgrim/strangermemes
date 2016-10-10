@@ -1,0 +1,28 @@
+{
+  "name": "pug-seed",
+  "version": "1.0.0",
+  "description": "seed to start a project that gives you PUG SaSS and Javascripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomasgrim/pug-seed.git"
+  },
+  "keywords": [
+    "pug",
+    "sass",
+    "gulp"
+  ],
+  "author": "Cliff Barendsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomasgrim/pug-seed/issues"
+  },
+  "homepage": "https://github.com/nomasgrim/pug-seed#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
