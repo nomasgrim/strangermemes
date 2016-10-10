@@ -24,6 +24,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
     "gulp-html-beautify": "^1.0.1",
     "gulp-minify": "0.0.14",
     "gulp-pug": "^3.1.0",
