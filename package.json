@@ -1,7 +1,7 @@
 {
   "name": "pug-seed",
   "version": "1.0.0",
-  "description": "seed to start a project that gives you PUG SaSS and Javascripts",
+  "description": "seed to start a project that gives you PUG Stylus and Javascripts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
   },
   "keywords": [
     "pug",
-    "sass",
+    "stylus",
     "gulp"
   ],
   "author": "Cliff Barendsen",
@@ -22,13 +22,12 @@
   },
   "homepage": "https://github.com/nomasgrim/pug-seed#readme",
   "devDependencies": {
+    "browser-sync": "^2.17.5",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
-    "gulp-concat": "^2.6.0",
     "gulp-html-beautify": "^1.0.1",
-    "gulp-minify": "0.0.14",
     "gulp-pug": "^3.1.0",
-    "gulp-run-sequence": "^0.3.2",
-    "gulp-sass": "^2.3.2"
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-stylus": "^2.6.0"
   }
 }
