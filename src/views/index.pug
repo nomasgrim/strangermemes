@@ -1,5 +1,37 @@
 include ../partials/head.pug
 
-body
-  h2 Thanks for using this pug seed
-  script(src="./assets/js/main.js")
+body(style="font-family:'StrangerFont-Condensed'")
+
+
+  input(type="checkbox", id="switch", checked)
+  <!--   <label for="switch" class="switch-label">Turn </label> -->
+  .container
+    .wrapper
+
+      .logo
+
+      nav
+        ul
+          li.nav__logo.active
+            a(href="#logo-meme") Logo Meme
+          li.nav__meme
+            a(href="#custom-meme") Custom Meme
+      section.screen
+        .meme__form
+          form
+            .form__wrapper
+              .form__field
+                input#line-one(type="text", placeholder="ENTER TOP LINE MEME TEXT")
+              .form__field.enter__button
+                input#line-two(type="text", placeholder="ENTER BOTTOM LINE MEME TEXT")
+              .button
+
+        .meme__custom
+          .close X
+          canvas#canvas(crossorigin="anonymous", width="650", height="450") Sorry, no canvas available
+          button#save save
+    #imgs
+    //-  <div class="overlay">AV-1</div> -->
+
+    script(src="./assets/js/canvas.js")
+    script(src="./assets/js/app.js")

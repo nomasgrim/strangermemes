@@ -22,7 +22,7 @@ gulp.task('stylus', ['build-clean'], function (cb) {
 });
 
 gulp.task('linenos', ['stylus'], function (cb) {
-  return gulp.src(srcAssetBase + 'stylus/*.styl')
+  return gulp.src(srcAssetBase + 'stylus/**/*.styl')
     .pipe(stylus({linenos: true}))
     .pipe(gulp.dest(distAssetBase + '/css'));
 });

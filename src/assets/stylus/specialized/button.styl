@@ -1,0 +1,72 @@
+.button {
+  letter-spacing: 3px;
+  display: inline-block;
+  float:right;
+  margin: .4em .4em 0 0;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em 1.5em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .85em;
+  background-color: #E52114;
+  background-image: url(../images/ico-enter.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  -webkit-transition: all 0.22s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.22s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.22s cubic-bezier(0.23, 1, 0.32, 1);
+  box-shadow: #960E05 0.04em 0.04em 0, 
+              #960E05 0.08em 0.08em 0, 
+              #960E05 0.12em 0.12em 0, 
+              #960E05 0.16em 0.16em 0, 
+              #960E05 0.2em 0.2em 0,
+              #960E05 0.24em 0.24em 0, 
+              #960E05 0.28em 0.28em 0, 
+              #960E05 0.32em 0.32em 0, 
+              #960E05 0.36em 0.36em 0, 
+              #960E05 0.4em 0.4em 0, 
+              #960E05 0.44em 0.44em 0, 
+              #960E05 0.48em 0.48em 0;
+  cursor:pointer;
+}
+.button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -0.48em;
+  right: -0.48em;
+}
+.button:hover {
+  background-color: #F73F33;
+}
+.button:active {
+  -webkit-transform: translate(0.48em, 0.48em);
+  -moz-transform: translate(0.48em, 0.48em);
+  -ms-transform: translate(0.48em, 0.48em);
+  -o-transform: translate(0.48em, 0.48em);
+  transform: translate(0.48em, 0.48em);
+  box-shadow: none;
+  text-shadow: none;
+  background-color: #ff0000;
+}
+@media (min-width: 22em) {
+  .button {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 42em) {
+  .button {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 50em) {
+  .button {
+    font-size: 1.8em;
+  }
+}
